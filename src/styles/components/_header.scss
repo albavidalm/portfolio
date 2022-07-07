@@ -1,0 +1,19 @@
+.header {
+  height: 100%;
+  &__title {
+    color: $color-second;
+    font-family: $font-primary;
+    font-size: 10rem;
+    font-weight: bolder;
+    margin-top: 0;
+  }
+  &__profession {
+    color: $color-third;
+    font-family: $font-secondary;
+    font-size: 4rem;
+    font-weight: 400;
+    &--span {
+      color: $color-second;
+    }
+  }
+}

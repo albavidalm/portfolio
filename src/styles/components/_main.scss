@@ -1,0 +1,10 @@
+.title {
+  color: $color-second;
+  font-family: $font-primary;
+  &__2 {
+    font-size: 4rem;
+  }
+  &__3 {
+    font-size: 2rem;
+  }
+}

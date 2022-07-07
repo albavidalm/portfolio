@@ -1,0 +1,12 @@
+.about {
+  height: 100vh;
+  &__image {
+    width: 50%;
+  }
+  &__text {
+    color: $color-third;
+    font-family: $font-secondary;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
