@@ -1,19 +1,37 @@
+import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
   const {
     register,
-    formState: { errors },
     handleSubmit,
+    formState: { errors },
   } = useForm();
-  const onSubmit = (data) => {
-    console.log(data);
+
+  const sendEmail = (formData) => {
+    emailjs
+      .send(
+        "service_5bmhrls",
+        "template_b6hma19",
+        formData,
+        "gBsoMP8xvVWSHOoXF"
+      )
+      .then(
+        (res) => {
+          console.log(res.text);
+          alert("Your message has been sent.");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
     <section className="contact" id="contact">
       <h2 className="title title__2">Contact</h2>
-      <form onSubmit={handleSubmit(onSubmit)}>
+
+      <form onSubmit={handleSubmit(sendEmail)}>
         <div>
           <label>
             Name <span className="form__span">*</span>
@@ -65,10 +83,19 @@ const Contact = () => {
             type="text"
             {...register("message", {
               required: true,
-              minLength: 10,
+              minLength: 1,
               maxLength: 250,
             })}
           />
+          {errors.message?.type === "required" && (
+            <p>I need your message. Please complete this field to continue.</p>
+          )}
+          {errors.message?.type === "minLength" && (
+            <p>Use at least 10 characters.</p>
+          )}
+          {errors.message?.type === "maxLength" && (
+            <p>Use a maxium of 250 characters.</p>
+          )}
         </div>
         <input type="submit" value="Send" />
       </form>
