@@ -1,0 +1,30 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(50, 50, 50, 0.241);
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  &__box {
+    //border-radius: 10px;
+    background-color: $color-third;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.fa-paper-plane {
+  color: $color-fisrt;
+  font-size: 5rem;
+}

@@ -1,5 +1,7 @@
 import albapicture from "../assets/images/albavidal.jpg";
 import { Skills } from "./Skills";
+import Button from "./ui/Button";
+
 const About = () => {
   return (
     <section className="about" id="about">
@@ -16,8 +18,13 @@ const About = () => {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
-      <button className="button">Resume</button>
-      <button className="button">Let's talk</button>
+      <Button>
+        <p>Resume</p>
+      </Button>
+      <Button>
+        <p>Let's talk</p>
+      </Button>
+
       <Skills />
     </section>
   );
