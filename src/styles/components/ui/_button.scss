@@ -1,0 +1,20 @@
+.btn {
+  background-color: $color-second;
+  box-shadow: #094c66 4px 4px 0;
+  border-radius: 8px;
+  border: none;
+  transition: transform 200ms, box-shadow 200ms;
+  font-family: $font-primary;
+  font-size: 0.7rem;
+  padding: 0.4rem;
+  color: $color-fisrt;
+  &:hover {
+    background-color: transparent;
+    border: 1px solid $color-second;
+    color: $color-second;
+  }
+  &:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0 0 0;
+  }
+}

@@ -2,9 +2,15 @@
   color: $color-second;
   font-family: $font-primary;
   &__2 {
-    font-size: 4rem;
+    font-size: 3rem;
+    @include desktop {
+      font-size: 4rem;
+    }
   }
   &__3 {
-    font-size: 2rem;
+    font-size: 1.2rem;
+    @include desktop {
+      font-size: 2rem;
+    }
   }
 }

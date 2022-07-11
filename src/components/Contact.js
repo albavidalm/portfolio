@@ -38,8 +38,8 @@ const Contact = () => {
       <section className="contact" id="contact">
         <h2 className="title title__2">Contact</h2>
         <p className="contact__text">
-          Do you you have any question, want to collaborate or just want to say
-          hi?. Fill in your info in the form below, I’d love to hear from you!.
+          Do you have any question, want to collaborate or just want to say hi?.
+          Fill in your info in the form below, I’d love to hear from you!.
         </p>
 
         <form onSubmit={handleSubmit(sendEmail)}>
@@ -47,8 +47,9 @@ const Contact = () => {
             {/* <label>Name</label> */}
 
             <input
+              className="form__input"
               type="text"
-              placeholder="Your name"
+              placeholder="Name"
               {...register("name", {
                 required: true,
                 pattern: /^[a-zA-Z\s]*$/,
@@ -73,6 +74,7 @@ const Contact = () => {
           <div>
             {/* <label>Your e-mail</label> */}
             <input
+              className="form__input"
               type="email"
               placeholder="E-mail"
               {...register("email", {
@@ -94,6 +96,7 @@ const Contact = () => {
           <div>
             {/* <label>Message</label> */}
             <input
+              className="form__input--message"
               type="text"
               placeholder="Message"
               {...register("message", {
@@ -114,7 +117,7 @@ const Contact = () => {
               <p>Use a maxium of 250 characters.</p>
             )}
           </div>
-          <input type="submit" value="Send" />
+          <input type="submit" value="Send" className="btn" />
         </form>
         <ContactSN />
       </section>
