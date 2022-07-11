@@ -1,6 +1,7 @@
 import albapicture from "../assets/images/albavidal.jpg";
 import { Skills } from "./Skills";
 import Button from "./ui/Button";
+import resume from "../assets/files/CV_Vidal_Moscardo_ENG.pdf";
 
 const About = () => {
   return (
@@ -18,13 +19,12 @@ const About = () => {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
-      <Button>
-        <p>Resume</p>
-      </Button>
-      <Button>
-        <p>Let's talk</p>
-      </Button>
-
+      <a href={resume} target="_blank" rel="noreferrer">
+        <Button>Resume</Button>
+      </a>
+      <a href="#contact">
+        <Button>Let's talk</Button>
+      </a>
       <Skills />
     </section>
   );
