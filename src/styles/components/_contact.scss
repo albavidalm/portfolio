@@ -1,0 +1,9 @@
+.contact {
+  height: 100vh;
+  &__text {
+    font-family: $font-secondary;
+    color: $color-third;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}

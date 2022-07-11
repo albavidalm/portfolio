@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import Modal from "./Modal";
 import Button from "./ui/Button";
+import ContactSN from "./ContactSN";
 
 const Contact = () => {
   const [showModal, setShowModal] = useState(false);
@@ -36,19 +37,21 @@ const Contact = () => {
     <>
       <section className="contact" id="contact">
         <h2 className="title title__2">Contact</h2>
+        <p className="contact__text">
+          Do you you have any question, want to collaborate or just want to say
+          hi?. Fill in your info in the form below, I’d love to hear from you!.
+        </p>
 
         <form onSubmit={handleSubmit(sendEmail)}>
           <div>
-            <label>
-              Name <span className="form__span">*</span>
-            </label>
+            {/* <label>Name</label> */}
 
             <input
               type="text"
               placeholder="Your name"
               {...register("name", {
                 required: true,
-                pattern: /^[A-Za-z]+$/i,
+                pattern: /^[a-zA-Z\s]*$/,
                 minLength: 3,
                 maxLength: 10,
               })}
@@ -68,10 +71,10 @@ const Contact = () => {
           </div>
 
           <div>
-            <label>Your e-mail</label>
+            {/* <label>Your e-mail</label> */}
             <input
               type="email"
-              placeholder="Your e-mail"
+              placeholder="E-mail"
               {...register("email", {
                 required: true,
                 pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i,
@@ -89,13 +92,13 @@ const Contact = () => {
           </div>
 
           <div>
-            <label>Message</label>
+            {/* <label>Message</label> */}
             <input
               type="text"
-              placeholder="Tell me what you need"
+              placeholder="Message"
               {...register("message", {
                 required: true,
-                minLength: 1,
+                minLength: 10,
                 maxLength: 250,
               })}
             />
@@ -113,6 +116,7 @@ const Contact = () => {
           </div>
           <input type="submit" value="Send" />
         </form>
+        <ContactSN />
       </section>
 
       {showModal && (

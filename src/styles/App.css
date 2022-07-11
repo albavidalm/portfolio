@@ -475,4 +475,15 @@ template {
   color: #022c3f;
   font-size: 5rem;
 }
+
+.contact {
+  height: 100vh;
+}
+
+.contact__text {
+  font-family: "Raleway", sans-serif;
+  color: #fafafa;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
 /*# sourceMappingURL=App.css.map */
