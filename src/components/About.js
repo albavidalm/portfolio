@@ -20,10 +20,12 @@ const About = () => {
         of Lorem Ipsum.
       </p>
       <a href={resume} target="_blank" rel="noreferrer">
-        <Button>Resume</Button>
+        <Button className="resume">
+          <span></span>
+        </Button>
       </a>
       <a href="#contact">
-        <Button>Let's talk</Button>
+        <Button className="contact"></Button>
       </a>
       <Skills />
     </section>

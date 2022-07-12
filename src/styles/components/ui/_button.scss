@@ -1,20 +1,73 @@
 .btn {
-  background-color: $color-second;
-  box-shadow: #094c66 4px 4px 0;
+  background-color: transparent;
+  border: 1px solid $color-second;
   border-radius: 8px;
-  border: none;
-  transition: transform 200ms, box-shadow 200ms;
+  box-shadow: #094c66 4px 4px 0;
+  color: $color-second;
   font-family: $font-primary;
   font-size: 0.7rem;
-  padding: 0.4rem;
-  color: $color-fisrt;
+  height: 2rem;
+  overflow: hidden;
+  position: relative;
+  width: 6rem;
+  &::before {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s;
+    width: 100%;
+  }
+  &::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+  }
   &:hover {
-    background-color: transparent;
+    background-color: $color-second;
     border: 1px solid $color-second;
-    color: $color-second;
+    color: $color-first;
+    transition: all 0.3s;
+    &::before {
+      content: "";
+      top: -60px;
+    }
+    &::after {
+      top: 0;
+    }
   }
   &:active {
-    transform: translateY(4px) translateX(4px);
     box-shadow: #094c66 0 0 0;
+    transform: translateY(4px) translateX(4px);
+  }
+}
+
+.resume {
+  &::before {
+    content: "Resume";
+  }
+  &:hover {
+    &::after {
+      content: "Download";
+    }
+  }
+}
+.contact {
+  &::before {
+    content: "Let's talk";
+  }
+  &:hover {
+    &::after {
+      content: "Contact";
+    }
   }
 }

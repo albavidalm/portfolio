@@ -58,16 +58,18 @@ const Contact = () => {
               })}
             />
             {errors.name?.type === "required" && (
-              <p>Name is required. Please complete this field to continue.</p>
+              <p className="form__error">
+                Name is required. Please complete this field to continue.
+              </p>
             )}
             {errors.name?.type === "minLength" && (
-              <p>Use at least 3 characters.</p>
+              <p className="form__error">Use at least 3 characters.</p>
             )}
             {errors.name?.type === "maxLength" && (
-              <p>Use a maxium of 15 characters.</p>
+              <p className="form__error">Use a maxium of 15 characters.</p>
             )}
             {errors.name?.type === "pattern" && (
-              <p>Only letters are allowed.</p>
+              <p className="form__error">Only letters are allowed.</p>
             )}
           </div>
 
@@ -83,10 +85,12 @@ const Contact = () => {
               })}
             />
             {errors.email?.type === "required" && (
-              <p>Email is required. Please complete this field to continue.</p>
+              <p className="form__error">
+                Email is required. Please complete this field to continue.
+              </p>
             )}
             {errors.email?.type === "pattern" && (
-              <p>
+              <p className="form__error">
                 Please, enter your email address in format:
                 yourname@example.com.
               </p>
@@ -106,15 +110,15 @@ const Contact = () => {
               })}
             />
             {errors.message?.type === "required" && (
-              <p>
+              <p className="form__error">
                 I need your message. Please complete this field to continue.
               </p>
             )}
             {errors.message?.type === "minLength" && (
-              <p>Use at least 10 characters.</p>
+              <p className="form__error">Use at least 10 characters.</p>
             )}
             {errors.message?.type === "maxLength" && (
-              <p>Use a maxium of 250 characters.</p>
+              <p className="form__error">Use a maxium of 250 characters.</p>
             )}
           </div>
           <input type="submit" value="Send" className="btn" />
