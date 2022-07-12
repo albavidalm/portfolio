@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="contact" id="contact">
+      <section className="contact wrapper" id="contact">
         <h2 className="title title__2">Contact</h2>
         <p className="contact__text">
           Do you have any question, want to collaborate or just want to say hi?.
@@ -43,11 +43,9 @@ const Contact = () => {
         </p>
 
         <form onSubmit={handleSubmit(sendEmail)}>
-          <div>
-            {/* <label>Name</label> */}
-
+          <div className="form__div">
             <input
-              className="form__input"
+              className="form__div--input"
               type="text"
               placeholder="Name"
               {...register("name", {
@@ -73,10 +71,10 @@ const Contact = () => {
             )}
           </div>
 
-          <div>
+          <div className="form__div">
             {/* <label>Your e-mail</label> */}
             <input
-              className="form__input"
+              className="form__div--input"
               type="email"
               placeholder="E-mail"
               {...register("email", {
@@ -97,11 +95,11 @@ const Contact = () => {
             )}
           </div>
 
-          <div>
+          <div className="msg">
             {/* <label>Message</label> */}
-            <input
-              className="form__input--message"
-              type="text"
+            <textarea
+              className="msg__input"
+              type="textbox"
               placeholder="Message"
               {...register("message", {
                 required: true,
@@ -121,7 +119,8 @@ const Contact = () => {
               <p className="form__error">Use a maxium of 250 characters.</p>
             )}
           </div>
-          <input type="submit" value="Send" className="btn" />
+          {/* <input type="submit" value="Send" className="btn" /> */}
+          <button className="btn send" type="submit"></button>
         </form>
         <ContactSN />
       </section>

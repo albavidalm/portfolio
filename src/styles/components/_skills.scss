@@ -1,10 +1,13 @@
-.skills__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
-  gap: 1rem 1rem;
-  padding: 0;
-  justify-items: center;
-  &--icon {
-    height: 2rem;
+.skills {
+  margin: 5rem 0;
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+    gap: 1rem 1rem;
+    padding: 0;
+    justify-items: center;
+    &--icon {
+      height: 2rem;
+    }
   }
 }

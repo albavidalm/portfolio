@@ -5,28 +5,45 @@ import resume from "../assets/files/CV_Vidal_Moscardo_ENG.pdf";
 
 const About = () => {
   return (
-    <section className="about" id="about">
-      <h2 className="title title__2">About me</h2>
-      <img className="about__image" alt="This is Alba" src={albapicture} />
+    <section className="about wrapper" id="about">
+      <div className="container__title">
+        <h2 className="title title__2">About me</h2>
+        <div className="line"></div>
+      </div>
+      <div className="about__container--image">
+        <img className="about__image" alt="This is Alba" src={albapicture} />
+      </div>
       <p className="about__text">
-        Lorem ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Hi! My name is Alba and I like to create online things. Although I
+        didn't know what web development was yet, my interest in it started some
+        time ago when I was trying to customize Blogger and Tumblr themes.
       </p>
-      <a href={resume} target="_blank" rel="noreferrer">
-        <Button className="resume">
-          <span></span>
-        </Button>
-      </a>
-      <a href="#contact">
-        <Button className="contact"></Button>
-      </a>
+      <p className="about__text">
+        I focused my professional career on administration and business
+        management and during these years I have improved and enhanced my
+        ability to solve problems, organization, self-learning and adapting to
+        change (as when I went to work in a clothing shop in another country).
+      </p>
+      <p className="about__text">
+        Some time ago, after having made some WordPress websites, my programming
+        bug started growing again so I took some courses on my own (a vice I
+        still have) until I finally finished my Web Application Development
+        bootcamp at Adalab.
+      </p>
+      <p className="about__text">
+        If I'm not programming I'm probably reading, learning to play the piano,
+        doing Crossfit or looking for a weekend plan.
+      </p>
+      <div className="about__buttons">
+        <a href={resume} target="_blank" rel="noreferrer">
+          <Button className="resume">
+            <span></span>
+          </Button>
+        </a>
+        <a href="#contact">
+          <Button className="talk"></Button>
+        </a>
+      </div>
       <Skills />
     </section>
   );
