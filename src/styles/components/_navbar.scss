@@ -1,0 +1,86 @@
+// Nav elements styles
+.navBar {
+  @include desktop {
+    text-align: end;
+  }
+}
+
+.navList__element {
+  display: inline-block;
+  margin: 0.3rem;
+  &--item {
+    color: $color-third;
+    font-family: $font-primary;
+    font-size: 0.8rem;
+    @include tablet {
+      font-size: 1.3rem;
+    }
+    @include desktop {
+      font-size: 1rem;
+      padding-left: 3rem;
+    }
+    &:hover {
+      color: $color-second;
+      transition: all 0.2s ease-in;
+    }
+  }
+}
+
+// Display specific Navbar
+.navigation {
+  @include mobile {
+    display: none;
+  }
+  @include tablet {
+    display: none;
+  }
+  @include desktop {
+    display: inline-block;
+  }
+}
+
+.navigationMobile .navList {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: -1rem;
+  right: 0;
+  background: #022231ec;
+  backdrop-filter: blur(5px);
+  height: 100%;
+  width: 45vw;
+  padding: 5rem 0 0 1.3rem;
+  z-index: 1;
+  animation: openMenu 1.3s 1 ease-in-out;
+  @include desktop {
+    display: none;
+  }
+}
+
+//Improve this animation
+// @keyframes openMenu {
+//   0% {
+//     right: -45vw;
+//   }
+//   100% {
+//     left: 54vw;
+//   }
+// }
+
+.hamburger,
+.hamburgerClose {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+  width: 1.6rem;
+  height: 1.6rem;
+  z-index: 10;
+  @include desktop {
+    display: none;
+  }
+}
+
+.hamburgerClose {
+  position: fixed;
+}

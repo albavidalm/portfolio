@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  color: $color-third;
+  font-family: $font-secondary;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.rrss__link {
+  font-size: 1.4rem;
+  padding: 1rem;
+  color: $color-third;
+}
+.rrss__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 16rem;
+}

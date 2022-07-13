@@ -1,5 +1,5 @@
 .contact {
-  height: 100vh;
+  //height: 100vh;
   &__text {
     font-family: $font-secondary;
     color: $color-third;
@@ -17,10 +17,10 @@
 }
 .msg {
   min-height: 7rem;
-  height: auto;
+  height: 18rem;
   &__input {
     width: 100%;
-    height: 5rem;
+    min-height: 15rem;
   }
 }
 

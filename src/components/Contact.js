@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import Modal from "./Modal";
 import Button from "./ui/Button";
-import ContactSN from "./ContactSN";
+import ContactSN from "./FooterSN";
 
 const Contact = () => {
   const [showModal, setShowModal] = useState(false);
@@ -122,7 +122,6 @@ const Contact = () => {
           {/* <input type="submit" value="Send" className="btn" /> */}
           <button className="btn send" type="submit"></button>
         </form>
-        <ContactSN />
       </section>
 
       {showModal && (

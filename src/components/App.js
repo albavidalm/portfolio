@@ -7,10 +7,12 @@ import Footer from "./Footer";
 const App = () => {
   return (
     <>
-      <Header />;
-      <About />
-      <Projects />
-      <Contact />
+      <Header />
+      <main className="main">
+        <About />
+        <Projects />
+        <Contact />
+      </main>
       <Footer />
     </>
   );

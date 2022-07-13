@@ -1,5 +1,9 @@
 .wrapper {
-  margin: 4rem 0;
+  margin: 4rem 0 7rem 0;
+}
+.main {
+  max-width: 62rem;
+  margin: 0 auto;
 }
 .title {
   color: $color-second;
