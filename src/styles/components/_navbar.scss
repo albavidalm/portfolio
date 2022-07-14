@@ -51,21 +51,20 @@
   width: 45vw;
   padding: 5rem 0 0 1.3rem;
   z-index: 1;
-  animation: openMenu 1.3s 1 ease-in-out;
+  animation: openMenu 1s 1 ease-in-out;
   @include desktop {
     display: none;
   }
 }
 
-//Improve this animation
-// @keyframes openMenu {
-//   0% {
-//     right: -45vw;
-//   }
-//   100% {
-//     left: 54vw;
-//   }
-// }
+@keyframes openMenu {
+  from {
+    transform: translate(45vw);
+  }
+  to {
+    transform: translate(0);
+  }
+}
 
 .hamburger,
 .hamburgerClose {

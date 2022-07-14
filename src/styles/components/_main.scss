@@ -10,6 +10,19 @@
   font-family: $font-primary;
   &__2 {
     font-size: 3rem;
+    overflow: hidden;
+    @include tablet {
+      &:after {
+        content: "";
+        display: inline-block;
+        height: 0.5em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-right: -100%;
+        margin-left: 1rem;
+        border-top: 1px solid $color-second;
+      }
+    }
     @include desktop {
       font-size: 4rem;
     }

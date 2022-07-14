@@ -1,8 +1,19 @@
 .about {
   height: 100%;
-  &__container--image {
-    width: 60%;
-    margin: 0 auto;
+  &__container {
+    &--image {
+      width: 60%;
+      margin: 0 auto;
+      @include tablet {
+        width: 35vw;
+      }
+    }
+    &--info {
+      @include tablet {
+        display: flex;
+        flex-direction: row;
+      }
+    }
   }
   &__text {
     color: $color-third;
@@ -18,21 +29,10 @@
     align-content: center;
   }
 }
-
-.line {
-  border: 1px solid $color-second;
-  height: 1px;
-  width: 60%;
-  display: none;
+.text {
   @include tablet {
-    display: block;
+    width: 65vw;
+    margin-top: -1.7rem;
+    margin-left: 1.8rem;
   }
-}
-.container__title {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: center;
-  height: 100%;
-  justify-content: space-between;
 }
