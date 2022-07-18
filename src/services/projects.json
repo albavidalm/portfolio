@@ -4,7 +4,8 @@
     "title": "Video Games searcher",
     "description": "A web application with React, API requests, local-storage, skeleton loading, filtering, favorites and react-router links.",
     "tags": ["React", "API", "Responsive", "Sass", "Skeleton"],
-    "img": "https://raw.githubusercontent.com/albavidalm/portfolio/main/src/assets/images/scr_videogames.jpeg?token=GHSAT0AAAAAABTKKZ4YGALMBKLITM3BXJVWYWRR3OQ",
+    "img": "../assets/images/scr_videogames.webp",
+    "imgGif": "../assets/images/scr_videogames.webp",
     "code": "https://github.dev/albavidalm/videogames-searcher",
     "live": "",
     "repo": "https://github.com/albavidalm/videogames-searcher"
@@ -14,7 +15,8 @@
     "title": "21 blackjack",
     "description": "BlackJack game for two players (user and computer) in JavaScript.",
     "tags": ["JavaScript", "Bootstrap", "Underscore library"],
-    "img": "https://raw.githubusercontent.com/albavidalm/portfolio/main/src/assets/images/scr_21blackjack.gif?token=GHSAT0AAAAAABTKKZ4ZMWZN36IOZ2OITRM6YWRSMLA",
+    "img": "../assets/images/scr_21.webp",
+    "imgGif": "../assets/images/scr_21_gif.gif",
     "code": "https://github.dev/albavidalm/21-blackjack",
     "live": "https://albavidalm.github.io/21-blackjack/",
     "repo": "https://github.com/albavidalm/21-blackjack"
@@ -24,7 +26,8 @@
     "title": "Landing page in Bootstrap",
     "description": "A landing page that look as close to the given design as possible with Sass and Bootstrap. Using pseudoclass nth-child to change some positions",
     "tags": ["Html5", "Bootstrap", "Sass", "Responsive"],
-    "img": "https://raw.githubusercontent.com/albavidalm/portfolio/main/src/assets/images/scr_landing_boot.png?token=GHSAT0AAAAAABTKKZ4ZG4MVYWJFTXENKF4MYWRSNIQ",
+    "img": "../assets/images/scr_bootstrap.webp",
+    "imgGif": "../assets/images/scr_bootstrap.webp",
     "code": "https://github.dev/albavidalm/Bookmark-landing-page-Bootsrap",
     "live": "https://albavidalm.github.io/Bookmark-landing-page-Bootsrap/",
     "repo": "https://github.com/albavidalm/Bookmark-landing-page-Bootsrap"
@@ -34,7 +37,8 @@
     "title": "Awesome profile cards",
     "description": "A Web application developed by a team of 4 women at Adalab's bootcamp that allows you to create and share personalized business cards. We inherited a Javascript code that we refactored to React, we created the web server and the database.",
     "tags": ["Sass", "Responsive", "JavaScript", "React", "Heroku"],
-    "img": "",
+    "img": "../assets/images/scr_awesome.webp",
+    "imgGif": "../assets/images/scr_awesome.webp",
     "code": "",
     "live": "",
     "repo": ""
@@ -44,7 +48,8 @@
     "title": "Zomiga",
     "description": "Design, shop implementation and management of a graphic designer's website.",
     "tags": ["WordPress", "WooCommerce", "Hosting"],
-    "img": "../assets/images/scr_zomiga.png",
+    "img": "../assets/images/scr_zomiga.webp",
+    "imgGif": "../assets/images/scr_zomiga.webp",
     "code": "",
     "live": "https://zomiga.com/?v=da7f24de4c8e",
     "repo": ""
@@ -54,7 +59,8 @@
     "title": "Stopwatch",
     "description": "An interactive stopwatch in Neumorphism style with animations.",
     "tags": ["Html5", "Css3", "Neumorphism", "JavaScript"],
-    "img": "../assets/images/scr_stopwatch.gif",
+    "img": "../assets/images/scr_stop.webp",
+    "imgGif": "../assets/images/scr_stop_gif.gif",
     "code": "https://github.dev/albavidalm/Chronometer",
     "live": "https://albavidalm.github.io/Chronometer/",
     "repo": "https://github.com/albavidalm/Chronometer"
@@ -64,7 +70,8 @@
     "title": "Local weather",
     "description": "A web App that displays the local weather using an API and user's geolocation.",
     "tags": ["Html5", "Css3", "DOM", "JavaScript", "API"],
-    "img": "../assets/images/scr_local-weather-avm.png",
+    "img": "../assets/images/scr_weather.webp",
+    "imgGif": "../assets/images/scr_weather_gif.gif",
     "code": "https://github.dev/albavidalm/Local-weather",
     "live": "https://albavidalm.github.io/Local-weather/",
     "repo": "https://github.com/albavidalm/Local-weather"
@@ -74,7 +81,8 @@
     "title": "Rick and Morty",
     "description": "Rick and Morty character directory througt API requests. Local-storage, react-router links and filters.",
     "tags": ["Html5", "Css3", "Sass", "Responsive", "API"],
-    "img": "../assets/images/scr_rickandmorty.png",
+    "img": "../assets/images/scr_rick.webp",
+    "imgGif": "../assets/images/scr_rick_gif.gif",
     "code": "https://github.dev/albavidalm/Rick-and-Morty",
     "live": "https://albavidalm.github.io/Rick-and-Morty/#/",
     "repo": "https://github.com/albavidalm/Rick-and-Morty"
@@ -84,9 +92,10 @@
     "title": "Tic tac toe",
     "description": "A functional tic-tac-toe 2 players game. Clip-paths figures, animations, show players turn, stop the game when there's no more movement and block them when there's a winner.",
     "tags": ["Html5", "Sass", "DOM", "JavaScript", "React"],
-    "img": "",
-    "code": "",
-    "live": "",
-    "repo": ""
+    "img": "../assets/images/scr_tic.webp",
+    "imgGif": "../assets/images/scr_tic_gif.gif",
+    "code": "https://github.dev/albavidalm/tic-tac-toe",
+    "live": "https://albavidalm.github.io/tic-tac-toe/",
+    "repo": "https://github.com/albavidalm/tic-tac-toe"
   }
 ]

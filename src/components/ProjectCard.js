@@ -4,6 +4,7 @@ const ProjectCard = ({
   title,
   description,
   img,
+  imgGif,
   tags,
   code,
   live,
@@ -18,9 +19,15 @@ const ProjectCard = ({
       </div>
       <div className="card__container">
         <img
-          className="card__container--img"
+          className="card__container--img mainImg"
           src={img}
           alt={`${title} screenshot`}
+          title={title}
+        />
+        <img
+          className="card__container--img"
+          src={imgGif}
+          alt={`${title} live`}
           title={title}
         />
       </div>
@@ -34,34 +41,40 @@ const ProjectCard = ({
         ))}
       </ul>
 
-      <div className="card__container">
-        <a
-          href={live}
-          alt={title}
-          rel="noreferrer"
-          target="_blank"
-          className="card__container--link"
-        >
-          <i className="fas fa-desktop codeIcon"></i>
-        </a>
-        <a
-          href={code}
-          alt={title}
-          rel="noreferrer"
-          target="_blank"
-          className="card__container--link"
-        >
-          <i className="fa-regular fa-file-code codeIcon"></i>
-        </a>
-        <a
-          href={repo}
-          alt={title}
-          rel="noreferrer"
-          target="_blank"
-          className="card__container--link"
-        >
-          <i className="fa-brands fa-github codeIcon"></i>
-        </a>
+      <div className="card__containerLink">
+        {live && (
+          <a
+            href={live}
+            alt={title}
+            rel="noreferrer"
+            target="_blank"
+            className="card__containerLink--link"
+          >
+            <i className="fas fa-desktop codeIcon"></i>
+          </a>
+        )}
+        {code && (
+          <a
+            href={code}
+            alt={title}
+            rel="noreferrer"
+            target="_blank"
+            className="card__containerLink--link"
+          >
+            <i className="fa-regular fa-file-code codeIcon"></i>
+          </a>
+        )}
+        {repo && (
+          <a
+            href={repo}
+            alt={title}
+            rel="noreferrer"
+            target="_blank"
+            className="card__containerLink--link"
+          >
+            <i className="fa-brands fa-github codeIcon"></i>
+          </a>
+        )}
       </div>
     </>
   );

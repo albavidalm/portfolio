@@ -10,10 +10,11 @@ const ProjectList = ({ data }) => {
             title={project.title}
             description={project.description}
             img={project.img}
+            imgGif={project.imgGif}
             tags={project.tags}
-            code={project.code}
-            live={project.live}
-            repo={project.repo}
+            code={project.code || undefined}
+            live={project.live || undefined}
+            repo={project.repo || undefined}
           />
         </li>
       ))}
