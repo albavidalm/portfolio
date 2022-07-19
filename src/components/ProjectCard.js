@@ -9,6 +9,7 @@ const ProjectCard = ({
   code,
   live,
   repo,
+  working,
 }) => {
   return (
     <>
@@ -42,6 +43,14 @@ const ProjectCard = ({
       </ul>
 
       <div className="card__containerLink">
+        {working && (
+          <i
+            className="fas fa-person-digging"
+            alt="Still working"
+            title="Still working"
+          ></i>
+        )}
+
         {live && (
           <a
             href={live}

@@ -1,17 +1,20 @@
 [
   {
     "id": 1,
+    "show": true,
     "title": "Video Games searcher",
     "description": "A web application with React, API requests, local-storage, skeleton loading, filtering, favorites and react-router links.",
     "tags": ["React", "API", "Responsive", "Sass", "Skeleton"],
     "img": "../assets/images/scr_videogames.webp",
     "imgGif": "../assets/images/scr_videogames.webp",
-    "code": "https://github.dev/albavidalm/videogames-searcher",
+    "code": "",
     "live": "",
-    "repo": "https://github.com/albavidalm/videogames-searcher"
+    "repo": "https://github.com/albavidalm/videogames-searcher",
+    "workingOn": true
   },
   {
     "id": 2,
+    "show": true,
     "title": "21 blackjack",
     "description": "BlackJack game for two players (user and computer) in JavaScript.",
     "tags": ["JavaScript", "Bootstrap", "Underscore library"],
@@ -23,6 +26,7 @@
   },
   {
     "id": 3,
+    "show": true,
     "title": "Landing page in Bootstrap",
     "description": "A landing page that look as close to the given design as possible with Sass and Bootstrap. Using pseudoclass nth-child to change some positions",
     "tags": ["Html5", "Bootstrap", "Sass", "Responsive"],
@@ -34,17 +38,19 @@
   },
   {
     "id": 4,
+    "show": true,
     "title": "Awesome profile cards",
     "description": "A Web application developed by a team of 4 women at Adalab's bootcamp that allows you to create and share personalized business cards. We inherited a Javascript code that we refactored to React, we created the web server and the database.",
     "tags": ["Sass", "Responsive", "JavaScript", "React", "Heroku"],
     "img": "../assets/images/scr_awesome.webp",
     "imgGif": "../assets/images/scr_awesome.webp",
-    "code": "",
-    "live": "",
-    "repo": ""
+    "code": "https://github.dev/albavidalm/project-promo-m-module-3-team-9",
+    "live": "https://awesome-profile-cards-onchange.herokuapp.com/",
+    "repo": "https://github.com/albavidalm/project-promo-m-module-3-team-9"
   },
   {
     "id": 5,
+    "show": true,
     "title": "Zomiga",
     "description": "Design, shop implementation and management of a graphic designer's website.",
     "tags": ["WordPress", "WooCommerce", "Hosting"],
@@ -56,6 +62,7 @@
   },
   {
     "id": 6,
+    "show": true,
     "title": "Stopwatch",
     "description": "An interactive stopwatch in Neumorphism style with animations.",
     "tags": ["Html5", "Css3", "Neumorphism", "JavaScript"],
@@ -67,6 +74,7 @@
   },
   {
     "id": 7,
+    "show": true,
     "title": "Local weather",
     "description": "A web App that displays the local weather using an API and user's geolocation.",
     "tags": ["Html5", "Css3", "DOM", "JavaScript", "API"],
@@ -78,6 +86,7 @@
   },
   {
     "id": 8,
+    "show": true,
     "title": "Rick and Morty",
     "description": "Rick and Morty character directory througt API requests. Local-storage, react-router links and filters.",
     "tags": ["Html5", "Css3", "Sass", "Responsive", "API"],
@@ -89,6 +98,7 @@
   },
   {
     "id": 9,
+    "show": true,
     "title": "Tic tac toe",
     "description": "A functional tic-tac-toe 2 players game. Clip-paths figures, animations, show players turn, stop the game when there's no more movement and block them when there's a winner.",
     "tags": ["Html5", "Sass", "DOM", "JavaScript", "React"],
