@@ -1,5 +1,12 @@
 .header {
   height: 100vh;
+  @include tablet {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+  @include desktop {
+    max-width: 62rem;
+  }
 }
 
 .hero {
@@ -9,8 +16,17 @@
   justify-content: center;
   & h1 {
     margin-block: 0;
+    @include desktop {
+      font-size: 8rem;
+    }
   }
   &__title {
+    &--container {
+      @include desktop {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
     &--name {
       animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
     }
@@ -20,6 +36,11 @@
         cubic-bezier(0.215, 0.61, 0.355, 1) both;
       animation: tracking-in-contract 0.9s cubic-bezier(0.215, 0.61, 0.355, 1)
         both;
+    }
+  }
+  & span {
+    @include desktop {
+      font-size: 10rem;
     }
   }
   &__profession {
@@ -60,6 +81,12 @@
     animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
   }
 }
+// .capital {
+//   font-family: $font-primary;
+//   @include desktop {
+//     font-size: 10rem;
+//   }
+// }
 
 //ANIMATIONS________________________________
 

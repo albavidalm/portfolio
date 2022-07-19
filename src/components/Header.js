@@ -7,9 +7,14 @@ const Header = () => {
       <NavBar />
 
       <div className="hero">
-        <h1 className="hero__title--name title">Alba</h1>
-        <h1 className="hero__title--lastName title">Vidal</h1>
-
+        <div className="hero__title--container">
+          <h1 className="hero__title--name title">
+            <span className="hero__title title">A</span>lba
+          </h1>
+          <h1 className="hero__title--lastName title">
+            <span className="hero__title title">V</span>idal
+          </h1>
+        </div>
         <div className="hero__profession--line border__up"></div>
         <h2 className="hero__profession">
           Front end developer
