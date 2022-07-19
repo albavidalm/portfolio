@@ -8,6 +8,10 @@
 .title {
   color: $color-second;
   font-family: $font-primary;
+  font-size: 5rem;
+  @include desktop {
+    font-size: 10rem;
+  }
   &__2 {
     font-size: 3rem;
     overflow: hidden;

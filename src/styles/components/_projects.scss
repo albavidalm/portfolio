@@ -64,6 +64,9 @@
       // @include desktop {
       //   height: 14rem;
       // }
+      &:hover {
+        cursor: nw-resize;
+      }
     }
   }
   &__containerLink {
