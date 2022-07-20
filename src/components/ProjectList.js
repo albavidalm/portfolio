@@ -1,14 +1,14 @@
 import ProjectCard from "./ProjectCard";
+import React from "react";
 
 const ProjectList = ({ data }) => {
   return (
     <ul className="cards">
       {data.map((project) => (
-        <>
+        <React.Fragment key={project.id}>
           {project.show && (
             <li className="card" key={project.id} id={project.id}>
               <ProjectCard
-                id={project.id}
                 title={project.title}
                 description={project.description}
                 img={project.img}
@@ -21,7 +21,7 @@ const ProjectList = ({ data }) => {
               />
             </li>
           )}
-        </>
+        </React.Fragment>
       ))}
     </ul>
   );

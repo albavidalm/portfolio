@@ -1,0 +1,18 @@
+.rrss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 16rem;
+  &__link {
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: $color-third;
+    &:hover {
+      color: $color-second;
+      transition: all 0.2s ease-in;
+    }
+  }
+}

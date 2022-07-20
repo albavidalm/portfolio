@@ -1,6 +1,4 @@
 const ProjectCard = ({
-  key,
-  id,
   title,
   description,
   img,

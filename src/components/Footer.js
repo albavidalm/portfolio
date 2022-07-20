@@ -1,10 +1,10 @@
-import FooterSN from "./FooterSN";
+import Social from "./Social";
 import FooterCredit from "./FooterCredit";
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <FooterSN />
+      <Social />
       <FooterCredit />
     </footer>
   );

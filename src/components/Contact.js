@@ -3,7 +3,6 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import Modal from "./Modal";
 import Button from "./ui/Button";
-import ContactSN from "./FooterSN";
 
 const Contact = () => {
   const [showModal, setShowModal] = useState(false);
