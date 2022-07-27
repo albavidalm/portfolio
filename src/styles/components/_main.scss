@@ -1,5 +1,11 @@
 .wrapper {
   margin: 4rem 0 7rem 0;
+  @include tablet {
+    margin-bottom: 9rem;
+  }
+  @include desktop {
+    margin-bottom: 13rem;
+  }
 }
 .main {
   max-width: 62rem;
