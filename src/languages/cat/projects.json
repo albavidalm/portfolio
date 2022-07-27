@@ -1,0 +1,114 @@
+{
+  "title": "Projectes",
+  "projectsinfo": [
+    {
+      "id": 1,
+      "show": true,
+      "title": "Buscador de videojocs",
+      "description": "Una aplicació web amb React, sol·licituds d'API, emmagatzematge local, skeleton loading, filtratge, favorits i enllaços de react-router.",
+      "tags": ["React", "API", "Responsive", "Sass", "Skeleton"],
+      "img": "../assets/images/scr_videogames.webp",
+      "imgGif": "../assets/images/scr_videogames.webp",
+      "code": "",
+      "live": "",
+      "repo": "https://github.com/albavidalm/videogames-searcher",
+      "workingOn": true
+    },
+    {
+      "id": 2,
+      "show": true,
+      "title": "21 blackjack",
+      "description": "Joc del 21 BlackJack per a dos jugadors (usuari i ordinador) en JavaScript.",
+      "tags": ["JavaScript", "Bootstrap", "Underscore library"],
+      "img": "../assets/images/scr_21.webp",
+      "imgGif": "../assets/images/scr_21_gif.gif",
+      "code": "https://github.dev/albavidalm/21-blackjack",
+      "live": "https://albavidalm.github.io/21-blackjack/",
+      "repo": "https://github.com/albavidalm/21-blackjack"
+    },
+    {
+      "id": 3,
+      "show": true,
+      "title": "Landing page en Bootstrap",
+      "description": "Creació d'una landing page que ha de semblar-se el màxim possible al disseny donat d'un wireframe en png. Amb Sass i Bootstrap i usant la pseudoclasse nth-child per canviar algunes posicions",
+      "tags": ["Html5", "Bootstrap", "Sass", "Responsive"],
+      "img": "../assets/images/scr_bootstrap.webp",
+      "imgGif": "../assets/images/scr_bootstrap.webp",
+      "code": "https://github.dev/albavidalm/Bookmark-landing-page-Bootsrap",
+      "live": "https://albavidalm.github.io/Bookmark-landing-page-Bootsrap/",
+      "repo": "https://github.com/albavidalm/Bookmark-landing-page-Bootsrap"
+    },
+    {
+      "id": 4,
+      "show": true,
+      "title": "Awesome profile cards",
+      "description": "Una aplicació web desenvolupada per un equip de 4 dones al bootcamp d'Adalab que permet crear i compartir targetes de visita personalitzades. Vam heretar un codi Javascript que vàrem refactoritzar a React. També vam crear el servidor web i la base de dades.",
+      "tags": ["Sass", "Responsive", "JavaScript", "React", "Heroku"],
+      "img": "../assets/images/scr_awesome.webp",
+      "imgGif": "../assets/images/scr_awesome.webp",
+      "code": "https://github.dev/albavidalm/project-promo-m-module-3-team-9",
+      "live": "https://awesome-profile-cards-onchange.herokuapp.com/",
+      "repo": "https://github.com/albavidalm/project-promo-m-module-3-team-9"
+    },
+    {
+      "id": 5,
+      "show": true,
+      "title": "Zomiga",
+      "description": "Disseny, implementació de la botiga i gestió del lloc web duna dissenyadora gràfica.",
+      "tags": ["WordPress", "WooCommerce", "Hosting"],
+      "img": "../assets/images/scr_zomiga.webp",
+      "imgGif": "../assets/images/scr_zomiga.webp",
+      "code": "",
+      "live": "https://zomiga.com/?v=da7f24de4c8e",
+      "repo": ""
+    },
+    {
+      "id": 6,
+      "show": true,
+      "title": "Cronòmetre",
+      "description": "Un cronòmetre interactiu amb estil Neumorphism i animacions.",
+      "tags": ["Html5", "Css3", "Neumorphism", "JavaScript"],
+      "img": "../assets/images/scr_stop.webp",
+      "imgGif": "../assets/images/scr_stop_gif.gif",
+      "code": "https://github.dev/albavidalm/Chronometer",
+      "live": "https://albavidalm.github.io/Chronometer/",
+      "repo": "https://github.com/albavidalm/Chronometer"
+    },
+    {
+      "id": 7,
+      "show": true,
+      "title": "El tiems local",
+      "description": "Aquesta aplicació web mostra el temps local utilitzant una API i la geolocalització de lusuari.",
+      "tags": ["Html5", "Css3", "DOM", "JavaScript", "API"],
+      "img": "../assets/images/scr_weather.webp",
+      "imgGif": "../assets/images/scr_weather_gif.gif",
+      "code": "https://github.dev/albavidalm/Local-weather",
+      "live": "https://albavidalm.github.io/Local-weather/",
+      "repo": "https://github.com/albavidalm/Local-weather"
+    },
+    {
+      "id": 8,
+      "show": true,
+      "title": "Rick and Morty",
+      "description": "Directori de personatges de la sèrie Rick i Morty que funciona a través de peticions API. Emmagatzematge local, enllaços i filtres de react-router.",
+      "tags": ["Html5", "Css3", "Sass", "Responsive", "API"],
+      "img": "../assets/images/scr_rick.webp",
+      "imgGif": "../assets/images/scr_rick_gif.gif",
+      "code": "https://github.dev/albavidalm/Rick-and-Morty",
+      "live": "https://albavidalm.github.io/Rick-and-Morty/#/",
+      "repo": "https://github.com/albavidalm/Rick-and-Morty"
+    },
+    {
+      "id": 9,
+      "show": true,
+      "title": "Tic tac toe",
+      "description": "Un joc funcional del tres en ratlla per a 2 jugadors. Figures clip-path, animacions, indica el torn dels jugadors, atura el joc quan no hi ha més moviments i els bloqueja quan hi ha un guanyador.",
+      "tags": ["Html5", "Sass", "DOM", "JavaScript", "React"],
+      "img": "../assets/images/scr_tic.webp",
+      "imgGif": "../assets/images/scr_tic_gif.gif",
+      "code": "https://github.dev/albavidalm/tic-tac-toe",
+      "live": "https://albavidalm.github.io/tic-tac-toe/",
+      "repo": "https://github.com/albavidalm/tic-tac-toe"
+    }
+  ]
+}

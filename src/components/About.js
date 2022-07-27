@@ -2,11 +2,14 @@ import albapicture from "../assets/images/albavidal.jpg";
 import { Skills } from "./Skills";
 import Button from "./ui/Button";
 import resume from "../assets/files/CV_Vidal_Moscardo_ENG.pdf";
+import { useTranslation } from "react-i18next";
+import { Trans } from "react-i18next";
 
 const About = () => {
+  const [t] = useTranslation("aboutme");
   return (
     <section className="about wrapper" id="about">
-      <h2 className="title title__2">About me</h2>
+      <h2 className="title title__2">{t("title")}</h2>
 
       <div className="about__container--info">
         <div className="about__container--image">
@@ -14,13 +17,16 @@ const About = () => {
         </div>
 
         <div className="text">
-          <p className="about__text">
-            Hi! My name is Alba and I like to create online things. Although I
+          <Trans i18nKey="multiline">
+            <p className="about__text">
+              {/* Hi! My name is Alba and I like to create online things. Although I
             didn't know what web development was yet, my interest in it started
             some time ago when I was trying to customize Blogger and Tumblr
-            themes.
-          </p>
-          <p className="about__text">
+            themes. */}
+              {t("description")}
+            </p>
+          </Trans>
+          {/* <p className="about__text">
             I focused my professional career on administration and business
             management and during these years I have improved and enhanced my
             ability to solve problems, organization, self-learning and adapting
@@ -36,7 +42,7 @@ const About = () => {
           <p className="about__text">
             If I'm not programming I'm probably reading, learning to play the
             piano, doing Crossfit or looking for a weekend plan.
-          </p>
+          </p> */}
           <div className="about__buttons">
             <a href={resume} target="_blank" rel="noreferrer">
               <Button className="resume">

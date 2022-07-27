@@ -1,0 +1,31 @@
+{
+  "title": "Contact",
+  "info": "Do you have any question, want to collaborate or just want to say hi?. Fill in your info in the form below, I’d love to hear from you!.",
+  "form": {
+    "placeholder": {
+      "name": "Name",
+      "message": "Message"
+    },
+    "error": {
+      "name": {
+        "required": "Name is required. Please complete this field to continue.",
+        "min": "Use at least 3 characters.",
+        "max": "Use a maxium of 15 characters.",
+        "type": "Only letters are allowed."
+      },
+      "email": {
+        "required": "Email is required. Please complete this field to continue.",
+        "type": "Please, enter your email address in format: yourname@example.com."
+      },
+      "message": {
+        "required": "I need your message. Please complete this field to continue.",
+        "min": "Use at least 10 characters.",
+        "max": "Use a maxium of 250 characters."
+      }
+    },
+    "modal": {
+      "thanks": "Thanks for your message.",
+      "close": "Close"
+    }
+  }
+}

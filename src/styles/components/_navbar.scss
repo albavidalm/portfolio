@@ -45,7 +45,10 @@
     display: none;
   }
   @include desktop {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
   }
 }
 
@@ -59,11 +62,17 @@
   background: #022231ec;
   backdrop-filter: blur(5px);
   height: calc(100% + 1rem);
-  width: 50vw;
+  width: 55vw;
   padding: 5rem 1.2rem;
   z-index: 1;
   animation: openMenu 1s 1 ease-in-out;
   justify-content: space-between;
+  &__others {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    justify-content: space-between;
+  }
   @include tablet {
     padding: 6rem 2rem;
   }
@@ -82,6 +91,7 @@
 .navigationMobile .navLinks {
   display: flex;
   flex-direction: column;
+  height: 75%;
 }
 .navigationMobile .rrss {
   margin: 0;

@@ -1,0 +1,31 @@
+{
+  "title": "Contacte",
+  "info": "Tens alguna pregunta, vols col·laborar o només vols saludar?. Omple el formulari amb la teva informació, m'encantaria saber de tu!.",
+  "form": {
+    "placeholder": {
+      "name": "Nom",
+      "message": "Missatge"
+    },
+    "error": {
+      "name": {
+        "required": "El nom és obligatori. Si us plau, omple aquest camp per continuar.",
+        "min": "Utilitza almenys 3 caràcters.",
+        "max": "Utilitza un màxim de 15 caràcters.",
+        "type": "Només es permeten lletres."
+      },
+      "email": {
+        "required": "El correu electrònic és obligatori. Si us plau, omple aquest camp per continuar.",
+        "type": "Si us plau, introduïu la vostra adreça de correu electrònic en format: elteunom@exemple.com."
+      },
+      "message": {
+        "required": "Necessito el teu missatge. Si us plau, omple aquest camp per continuar.",
+        "min": "Utilitza almenys 10 caràcters.",
+        "max": "Utilitza un màxim de 250 caràcters."
+      }
+    },
+    "modal": {
+      "thanks": "Gràcies pel teu missatge.",
+      "close": "Tancar"
+    }
+  }
+}

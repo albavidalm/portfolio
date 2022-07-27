@@ -19,11 +19,14 @@ import trelloIco from "../assets/images/trello.svg";
 import vscIco from "../assets/images/vsc.svg";
 import wpIco from "../assets/images/wp.svg";
 import zeplinIco from "../assets/images/zeplin.svg";
+import { useTranslation } from "react-i18next";
 
 export const Skills = () => {
+  const [t] = useTranslation("aboutme");
+
   return (
     <article className="skills">
-      <h3 className="title title__3">Skills & tools</h3>
+      <h3 className="title title__3">{t("skills")}</h3>
       <ul className="skills__list">
         <a
           href="https://developer.mozilla.org/es/docs/Web/HTML"

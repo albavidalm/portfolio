@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import Modal from "./Modal";
 import Button from "./ui/Button";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const [showModal, setShowModal] = useState(false);
@@ -31,22 +32,19 @@ const Contact = () => {
         }
       );
   };
-
+  const [t] = useTranslation("contact");
   return (
     <>
       <section className="contact wrapper" id="contact">
-        <h2 className="title title__2">Contact</h2>
-        <p className="contact__text">
-          Do you have any question, want to collaborate or just want to say hi?.
-          Fill in your info in the form below, I’d love to hear from you!.
-        </p>
+        <h2 className="title title__2">{t("title")}</h2>
+        <p className="contact__text">{t("info")}</p>
 
         <form onSubmit={handleSubmit(sendEmail)}>
           <div className="form__div">
             <input
               className="form__div--input"
               type="text"
-              placeholder="Name"
+              placeholder={t("form.placeholder.name")}
               {...register("name", {
                 required: true,
                 pattern: /^[a-zA-Z\s]*$/,
@@ -55,18 +53,16 @@ const Contact = () => {
               })}
             />
             {errors.name?.type === "required" && (
-              <p className="form__error">
-                Name is required. Please complete this field to continue.
-              </p>
+              <p className="form__error">{t("form.error.name.required")}</p>
             )}
             {errors.name?.type === "minLength" && (
-              <p className="form__error">Use at least 3 characters.</p>
+              <p className="form__error">{t("form.error.name.min")}</p>
             )}
             {errors.name?.type === "maxLength" && (
-              <p className="form__error">Use a maxium of 15 characters.</p>
+              <p className="form__error">{t("form.error.name.max")}</p>
             )}
             {errors.name?.type === "pattern" && (
-              <p className="form__error">Only letters are allowed.</p>
+              <p className="form__error">{t("form.error.name.type")}</p>
             )}
           </div>
 
@@ -82,15 +78,10 @@ const Contact = () => {
               })}
             />
             {errors.email?.type === "required" && (
-              <p className="form__error">
-                Email is required. Please complete this field to continue.
-              </p>
+              <p className="form__error">{t("form.error.email.required")}</p>
             )}
             {errors.email?.type === "pattern" && (
-              <p className="form__error">
-                Please, enter your email address in format:
-                yourname@example.com.
-              </p>
+              <p className="form__error">{t("form.error.email.type")}</p>
             )}
           </div>
 
@@ -99,7 +90,7 @@ const Contact = () => {
             <textarea
               className="msg__input"
               type="textbox"
-              placeholder="Message"
+              placeholder={t("form.placeholder.message")}
               {...register("message", {
                 required: true,
                 minLength: 10,
@@ -107,15 +98,13 @@ const Contact = () => {
               })}
             />
             {errors.message?.type === "required" && (
-              <p className="form__error">
-                I need your message. Please complete this field to continue.
-              </p>
+              <p className="form__error">{t("form.error.message.required")}</p>
             )}
             {errors.message?.type === "minLength" && (
-              <p className="form__error">Use at least 10 characters.</p>
+              <p className="form__error">{t("form.error.message.min")}</p>
             )}
             {errors.message?.type === "maxLength" && (
-              <p className="form__error">Use a maxium of 250 characters.</p>
+              <p className="form__error">{t("form.error.message.max")}</p>
             )}
           </div>
           {/* <input type="submit" value="Send" className="btn" /> */}
@@ -126,8 +115,10 @@ const Contact = () => {
       {showModal && (
         <Modal>
           <i className="far fa-paper-plane"></i>
-          <p>Thanks for your message.</p>
-          <Button onClickModal={() => setShowModal(!showModal)}>Close</Button>
+          <p>{t("modal.thanks")}</p>
+          <Button onClickModal={() => setShowModal(!showModal)}>
+            {t("modal.close")}
+          </Button>
         </Modal>
       )}
     </>

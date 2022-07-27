@@ -1,0 +1,31 @@
+{
+  "title": "Contacto",
+  "info": "¿Tienes alguna pregunta, quieres colaborar o sólo saludar?. Rellena el formulario con tu información, ¡me encantaría saber de ti!.",
+  "form": {
+    "placeholder": {
+      "name": "Nombre",
+      "message": "Mensaje"
+    },
+    "error": {
+      "name": {
+        "required": "El nombre es obligatorio. Por favor, rellena este campo para continuar.",
+        "min": "Usa al menos 3 caracteres.",
+        "max": "Usa un máximo de 15 caracteres.",
+        "type": "Sólo se permiten letras."
+      },
+      "email": {
+        "required": "El correo electrónico es obligatorio. Por favor, rellena este campo para continuar.",
+        "type": "Por favor, introduce tu dirección de correo electrónico en formato: tunombre@ejemplo.com."
+      },
+      "message": {
+        "required": "Necesito tu mensaje. Por favor, rellena este campo para continuar.",
+        "min": "Usa al menos 10 caracteres.",
+        "max": "Usa un máximo de 250 caracteres.."
+      }
+    },
+    "modal": {
+      "thanks": "Gracias por tu mensaje.",
+      "close": "Cerrar"
+    }
+  }
+}

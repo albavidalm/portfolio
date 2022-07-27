@@ -1,3 +1,6 @@
+//import { useTranslation } from "react-i18next";
+import React from "react";
+
 const ProjectCard = ({
   title,
   description,
@@ -8,7 +11,10 @@ const ProjectCard = ({
   live,
   repo,
   working,
+  t,
 }) => {
+  //const [t] = useTranslation("projects");
+  //console.log({ t: title });
   return (
     <>
       <div className="card__buttons">

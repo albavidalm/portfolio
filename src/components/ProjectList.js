@@ -1,10 +1,13 @@
+//import data from "../services/data.json";
 import ProjectCard from "./ProjectCard";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-const ProjectList = ({ data }) => {
+const ProjectList = () => {
+  const { t } = useTranslation("projects");
   return (
     <ul className="cards">
-      {data.map((project) => (
+      {t("projectsinfo", { returnObjects: true }).map((project) => (
         <React.Fragment key={project.id}>
           {project.show && (
             <li className="card" key={project.id} id={project.id}>

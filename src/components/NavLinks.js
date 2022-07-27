@@ -1,7 +1,10 @@
 import React from "react";
+import LanguageButtons from "./LanguageButtons";
 import Social from "./Social";
+import { useTranslation } from "react-i18next";
 
 const NavLinks = ({ isMobile, closeMobileMenu }) => {
+  const [t] = useTranslation("navbar");
   return (
     <>
       <div className="navList">
@@ -11,7 +14,7 @@ const NavLinks = ({ isMobile, closeMobileMenu }) => {
             onClick={() => isMobile && closeMobileMenu()}
           >
             <a className="navList__element--item" href="/#about">
-              About me
+              {t("about")}
             </a>
           </li>
           <li
@@ -19,7 +22,7 @@ const NavLinks = ({ isMobile, closeMobileMenu }) => {
             onClick={() => isMobile && closeMobileMenu()}
           >
             <a className="navList__element--item" href="/#projects">
-              Projects
+              {t("projects")}
             </a>
           </li>
           <li
@@ -27,12 +30,17 @@ const NavLinks = ({ isMobile, closeMobileMenu }) => {
             onClick={() => isMobile && closeMobileMenu()}
           >
             <a className="navList__element--item" href="/#contact">
-              Contact
+              {t("contact")}
             </a>
           </li>
         </ul>
 
-        {isMobile && <Social />}
+        {isMobile && (
+          <div className="navList__others">
+            <LanguageButtons />
+            <Social />
+          </div>
+        )}
       </div>
     </>
   );
