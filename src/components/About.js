@@ -18,31 +18,8 @@ const About = () => {
 
         <div className="text">
           <Trans i18nKey="multiline">
-            <p className="about__text">
-              {/* Hi! My name is Alba and I like to create online things. Although I
-            didn't know what web development was yet, my interest in it started
-            some time ago when I was trying to customize Blogger and Tumblr
-            themes. */}
-              {t("description")}
-            </p>
+            <p className="about__text">{t("description")}</p>
           </Trans>
-          {/* <p className="about__text">
-            I focused my professional career on administration and business
-            management and during these years I have improved and enhanced my
-            ability to solve problems, organization, self-learning and adapting
-            to change (as when I went to work in a clothing shop in another
-            country).
-          </p>
-          <p className="about__text">
-            Some time ago, after having made some WordPress websites, my
-            programming bug started growing again so I took some courses on my
-            own (a vice I still have) until I finally finished my Web
-            Application Development bootcamp at Adalab.
-          </p>
-          <p className="about__text">
-            If I'm not programming I'm probably reading, learning to play the
-            piano, doing Crossfit or looking for a weekend plan.
-          </p> */}
           <div className="about__buttons">
             <a href={resume} target="_blank" rel="noreferrer">
               <Button className="resume">

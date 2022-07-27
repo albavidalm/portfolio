@@ -20,6 +20,11 @@
     font-family: $font-secondary;
     font-size: 1.2rem;
     line-height: 2rem;
+    & br {
+      content: "";
+      height: 1em;
+      display: block;
+    }
   }
   &__buttons {
     margin-top: 2rem;
