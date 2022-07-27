@@ -13,7 +13,7 @@ const NavLinks = ({ isMobile, closeMobileMenu }) => {
             className="navList__element"
             onClick={() => isMobile && closeMobileMenu()}
           >
-            <a className="navList__element--item" href="/#about">
+            <a className="navList__element--item" href="#about">
               {t("about")}
             </a>
           </li>
@@ -21,7 +21,7 @@ const NavLinks = ({ isMobile, closeMobileMenu }) => {
             className="navList__element"
             onClick={() => isMobile && closeMobileMenu()}
           >
-            <a className="navList__element--item" href="/#projects">
+            <a className="navList__element--item" href="#projects">
               {t("projects")}
             </a>
           </li>
@@ -29,7 +29,7 @@ const NavLinks = ({ isMobile, closeMobileMenu }) => {
             className="navList__element"
             onClick={() => isMobile && closeMobileMenu()}
           >
-            <a className="navList__element--item" href="/#contact">
+            <a className="navList__element--item" href="#contact">
               {t("contact")}
             </a>
           </li>
