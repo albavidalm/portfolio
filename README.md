@@ -30,7 +30,7 @@ Welcome on board!
 ### Further implementations
 
 Soon I will add a button to toggle the portfolio in Dark or Light mode.
-I also want to implement a functionality to switch between English and Spanish.
+I also want to improve the data translation and the buttons on it.
 
 ## My process
 
@@ -43,6 +43,8 @@ I also want to implement a functionality to switch between English and Spanish.
 - React
 - React Hook Form
 - EmailJS
+- i18n
+- i18next
 - Responsive
 
 ### Setup
