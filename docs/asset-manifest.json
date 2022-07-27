@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9d6c8395.css",
+    "main.js": "./static/js/main.539d5a2f.js",
+    "static/media/CV_Vidal_Moscardo_ENG.pdf": "./static/media/CV_Vidal_Moscardo_ENG.0ca794bc242022a99b40.pdf",
+    "static/media/albavidal.jpg": "./static/media/albavidal.3c137056195559148f8f.jpg",
+    "static/media/react.svg": "./static/media/react.9d8f860659e9654f58701cdbd0b50c60.svg",
+    "static/media/nodejs.svg": "./static/media/nodejs.6e5c09cba8ee3a259a4a22e2cbb57382.svg",
+    "static/media/sass.svg": "./static/media/sass.de962eec185cce5bdae99c011d14731f.svg",
+    "static/media/zeplin.svg": "./static/media/zeplin.a624ecb3886d74077a458872f0c4c0a8.svg",
+    "static/media/gulp.svg": "./static/media/gulp.107a78cf6ed253d06fe6778ed8efd3ac.svg",
+    "static/media/github.svg": "./static/media/github.6b4d918bb4a9c093ab1091706c61edab.svg",
+    "static/media/hamburger_icon.svg": "./static/media/hamburger_icon.e6f2eedefdb86df6b053670061e1211e.svg",
+    "static/media/wp.svg": "./static/media/wp.d41f018cf49548b83007af75d9d997ef.svg",
+    "index.html": "./index.html",
+    "static/media/clickup.svg": "./static/media/clickup.66bff5771bc1ac9a5b8c4a264bbf4b5e.svg",
+    "static/media/JS.svg": "./static/media/JS.3521d25cd3f4239289a8c89666074e10.svg",
+    "static/media/ps.svg": "./static/media/ps.f1397115813c5e20c0c94ab364ef9282.svg",
+    "static/media/bootstrap.svg": "./static/media/bootstrap.b771fc479a99bb884df2d554640c2a38.svg",
+    "static/media/illustrator.svg": "./static/media/illustrator.13e0c54d02117d152df160fdc3099d90.svg",
+    "static/media/slack.svg": "./static/media/slack.04a5f9cf5e5f7d3b41da10c1a7dd32e7.svg",
+    "static/media/indesign.svg": "./static/media/indesign.fc98d51a55d2d025665e41eebd6dc728.svg",
+    "static/media/html.svg": "./static/media/html.c6432d7acceb735f05835f982d39edb1.svg",
+    "static/media/css.svg": "./static/media/css.682e2625af5127d1999fb5246234e14d.svg",
+    "static/media/git.svg": "./static/media/git.0132f56cfa327a6346dfcaa57d983c31.svg",
+    "static/media/trello.svg": "./static/media/trello.9491f4a698c8c5e3061db15c2c64dc71.svg",
+    "static/media/hamburger_icon_close.svg": "./static/media/hamburger_icon_close.8f92d3ff971b0bd27f381502f6010003.svg",
+    "static/media/figma.svg": "./static/media/figma.cd05219c7308b0d7fcf5286737c4c100.svg",
+    "static/media/npm.svg": "./static/media/npm.c75ed9a4d5d33817dc2247c6bdcdff14.svg",
+    "static/media/circle.svg": "./static/media/circle.da39a5584b61323c1bbc1ec09b94da5d.svg",
+    "static/media/vsc.svg": "./static/media/vsc.b2ca383cd4cfe544a0b2239008be5dc4.svg",
+    "main.9d6c8395.css.map": "./static/css/main.9d6c8395.css.map",
+    "main.539d5a2f.js.map": "./static/js/main.539d5a2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d6c8395.css",
+    "static/js/main.539d5a2f.js"
+  ]
+}
