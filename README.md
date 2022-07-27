@@ -3,10 +3,13 @@
 Here you have my portfolio built in React. You could know a little bit more about me, download my resume, see some of my projects and contact with me through a form or my social network.
 Welcome on board!
 
+## Screenshots
+
+![](./src/assets/images/scr_header.webp)
+
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshots](#screenshots)
   - [Links](#links)
   - [Further implementations](#further-implementations)
 - [My process](#my-process)
@@ -17,10 +20,6 @@ Welcome on board!
 
 ## Overview
 
-### Screenshots
-
-![](./src/assets/images/scr_header.webp)
-
 ### Links
 
 - Code: [https://github.dev/albavidalm/portfolio/](https://github.dev/albavidalm/portfolio)
@@ -30,7 +29,7 @@ Welcome on board!
 ### Further implementations
 
 Soon I will add a button to toggle the portfolio in Dark or Light mode.
-I also want to improve the data translation and the buttons on it.
+I also want to improve the data translation and the buttons on each language.
 
 ## My process
 
