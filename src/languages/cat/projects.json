@@ -65,15 +65,16 @@
     {
       "id": 6,
       "show": true,
-      "title": "Cronòmetre",
-      "description": "Un cronòmetre interactiu amb estil Neumorphism i animacions.",
-      "tags": ["Html5", "Css3", "Neumorphism", "JavaScript"],
-      "img": "assets/images/scr_stop.webp",
-      "imgGif": "assets/images/scr_stop_gif.gif",
-      "code": "https://github.dev/albavidalm/Chronometer",
-      "live": "https://albavidalm.github.io/Chronometer/",
-      "repo": "https://github.com/albavidalm/Chronometer"
+      "title": "Futurama",
+      "description": "Directori de personatges de la sèrie Futurama que funciona a través de peticions API. Emmagatzematge local, enllaços i filtres de react-router.",
+      "tags": ["Html5", "Css3", "Sass", "Responsive", "API"],
+      "img": "assets/images/scr_futurama.webp",
+      "imgGif": "assets/images/scr_futurama_gif.gif",
+      "code": "https://github.dev/albavidalm/Futurama/",
+      "live": "https://albavidalm.github.io/Futurama/#/",
+      "repo": "https://github.com/albavidalm/Futurama"
     },
+
     {
       "id": 7,
       "show": true,
@@ -89,14 +90,14 @@
     {
       "id": 8,
       "show": true,
-      "title": "Rick and Morty",
-      "description": "Directori de personatges de la sèrie Rick i Morty que funciona a través de peticions API. Emmagatzematge local, enllaços i filtres de react-router.",
-      "tags": ["Html5", "Css3", "Sass", "Responsive", "API"],
-      "img": "assets/images/scr_rick.webp",
-      "imgGif": "assets/images/scr_rick_gif.gif",
-      "code": "https://github.dev/albavidalm/Rick-and-Morty",
-      "live": "https://albavidalm.github.io/Rick-and-Morty/#/",
-      "repo": "https://github.com/albavidalm/Rick-and-Morty"
+      "title": "Cronòmetre",
+      "description": "Un cronòmetre interactiu amb estil Neumorphism i animacions.",
+      "tags": ["Html5", "Css3", "Neumorphism", "JavaScript"],
+      "img": "assets/images/scr_stop.webp",
+      "imgGif": "assets/images/scr_stop_gif.gif",
+      "code": "https://github.dev/albavidalm/Chronometer",
+      "live": "https://albavidalm.github.io/Chronometer/",
+      "repo": "https://github.com/albavidalm/Chronometer"
     },
     {
       "id": 9,
