@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.9d6c8395.css",
-    "main.js": "./static/js/main.9fadf147.js",
+    "main.js": "./static/js/main.7090c1ff.js",
     "static/media/CV_Vidal_Moscardo_ENG.pdf": "./static/media/CV_Vidal_Moscardo_ENG.0ca794bc242022a99b40.pdf",
     "static/media/albavidal.jpg": "./static/media/albavidal.3c137056195559148f8f.jpg",
     "static/media/react.svg": "./static/media/react.9d8f860659e9654f58701cdbd0b50c60.svg",
@@ -30,10 +30,10 @@
     "static/media/circle.svg": "./static/media/circle.da39a5584b61323c1bbc1ec09b94da5d.svg",
     "static/media/vsc.svg": "./static/media/vsc.b2ca383cd4cfe544a0b2239008be5dc4.svg",
     "main.9d6c8395.css.map": "./static/css/main.9d6c8395.css.map",
-    "main.9fadf147.js.map": "./static/js/main.9fadf147.js.map"
+    "main.7090c1ff.js.map": "./static/js/main.7090c1ff.js.map"
   },
   "entrypoints": [
     "static/css/main.9d6c8395.css",
-    "static/js/main.9fadf147.js"
+    "static/js/main.7090c1ff.js"
   ]
 }
