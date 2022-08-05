@@ -31,7 +31,7 @@
       animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
     }
     &--lastName {
-      text-align: end;
+      text-align: flex-end;
       -webkit-animation: tracking-in-contract 0.9s
         cubic-bezier(0.215, 0.61, 0.355, 1) both;
       animation: tracking-in-contract 0.9s cubic-bezier(0.215, 0.61, 0.355, 1)

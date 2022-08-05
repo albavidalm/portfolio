@@ -1,7 +1,7 @@
 // Nav elements styles
 .navBar {
   @include desktop {
-    text-align: end;
+    text-align: flex-end;
     -webkit-animation: scale-in-ver-center 1.1s
       cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
     animation: scale-in-ver-center 1.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
 

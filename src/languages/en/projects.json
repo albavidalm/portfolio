@@ -9,10 +9,10 @@
       "tags": ["React", "API", "Responsive", "Sass", "Skeleton"],
       "img": "assets/images/scr_videogames.webp",
       "imgGif": "assets/images/scr_videogames.webp",
-      "code": "",
-      "live": "",
+      "code": "https://github.dev/albavidalm/videogames-searcher",
+      "live": "https://albavidalm.github.io/videogames-searcher/",
       "repo": "https://github.com/albavidalm/videogames-searcher",
-      "workingOn": true
+      "workingOn": false
     },
     {
       "id": 2,
