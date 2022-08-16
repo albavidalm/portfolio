@@ -3,6 +3,7 @@ import Header from "./Header";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import ButtonTop from "./ui/ButtonTop";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <About />
         <Projects />
         <Contact />
+        <ButtonTop />
       </main>
       <Footer />
     </>

@@ -1,7 +1,7 @@
 .btn {
   background-color: transparent;
-  border: 1px solid $color-second;
   border-radius: 8px;
+  border: 1px solid $color-second;
   box-shadow: #094c66 4px 4px 0;
   color: $color-second;
   font-family: $font-primary;
@@ -22,15 +22,15 @@
     width: 100%;
   }
   &::after {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
     position: absolute;
     top: 60px;
-    left: 0;
-    width: 100%;
-    height: 100%;
     transition: all 0.3s;
+    width: 100%;
   }
   &:hover {
     background-color: $color-second;
@@ -48,6 +48,30 @@
   &:active {
     box-shadow: #094c66 0 0 0;
     transform: translateY(4px) translateX(4px);
+  }
+}
+
+.btn-top {
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  bottom: 40px;
+  color: $color-second;
+  cursor: pointer;
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  transition: all 0.2s;
+  width: 2rem;
+  &:hover {
+    transform: translateY(-3px);
+    background-color: $color-second;
+    color: $color-third;
+  }
+  @include desktop {
+    right: 4rem;
   }
 }
 
