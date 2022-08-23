@@ -1,4 +1,4 @@
-import albapicture from "../assets/images/albavidal.jpg";
+import albapicture from "../assets/images/albavidal.png";
 import { Skills } from "./Skills";
 import Button from "./ui/Button";
 import resume from "../assets/files/CV_Vidal_Moscardo_ENG.pdf";

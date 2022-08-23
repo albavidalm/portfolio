@@ -18,8 +18,9 @@
   &__text {
     color: $color-third;
     font-family: $font-secondary;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 2rem;
+    font-weight: 200;
     & br {
       content: "";
       height: 1em;
