@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "./static/css/main.79917692.css",
-    "main.js": "./static/js/main.cfccef7d.js",
+    "main.js": "./static/js/main.9d176f5f.js",
     "static/media/albavidal.png": "./static/media/albavidal.00b444e9ec370167fc90.png",
-    "static/media/CV_Vidal_Moscardo_ENG.pdf": "./static/media/CV_Vidal_Moscardo_ENG.e757d965561664786694.pdf",
+    "static/media/CV_Vidal_Moscardo_ENG.pdf": "./static/media/CV_Vidal_Moscardo_ENG.183b981fad180f93c96c.pdf",
     "static/media/react.svg": "./static/media/react.9d8f860659e9654f58701cdbd0b50c60.svg",
     "static/media/nodejs.svg": "./static/media/nodejs.6e5c09cba8ee3a259a4a22e2cbb57382.svg",
     "static/media/sass.svg": "./static/media/sass.de962eec185cce5bdae99c011d14731f.svg",
@@ -30,10 +30,10 @@
     "static/media/circle.svg": "./static/media/circle.da39a5584b61323c1bbc1ec09b94da5d.svg",
     "static/media/vsc.svg": "./static/media/vsc.b2ca383cd4cfe544a0b2239008be5dc4.svg",
     "main.79917692.css.map": "./static/css/main.79917692.css.map",
-    "main.cfccef7d.js.map": "./static/js/main.cfccef7d.js.map"
+    "main.9d176f5f.js.map": "./static/js/main.9d176f5f.js.map"
   },
   "entrypoints": [
     "static/css/main.79917692.css",
-    "static/js/main.cfccef7d.js"
+    "static/js/main.9d176f5f.js"
   ]
 }
